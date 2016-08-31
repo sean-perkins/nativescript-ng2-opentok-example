@@ -1,7 +1,7 @@
-<StackLayout>
-    <Label text="Tap the button" class="title"></Label>
-    
-    <Button text="TAP" (tap)="onTap()"></Button>
-
-    <Label [text]="message" class="message" textWrap="true"></Label>
-</StackLayout>
+<GridLayout rows="*,auto,auto">
+    <GridLayout>
+        <StackLayout #subscriber id="subscriber" width="100%" height="100%"></StackLayout>
+        <TNSOTPublisher #publisher id="publisher" [sessionId]="sessionId" [api]="api" [token]="token" verticalAlignment="top"
+            horizontalAlignment="right" margin="10" width="100" height="100"></TNSOTPublisher>
+    </GridLayout>
+</GridLayout>
