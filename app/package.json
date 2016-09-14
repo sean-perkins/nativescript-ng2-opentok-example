@@ -53,7 +53,7 @@
   },
   "readme": "ERROR: No README data found!",
   "_id": "tns-template-hello-world-ng@2.3.0",
-  "_shasum": "7149a7ebeeb98ed02d356bf7aa48dd185dd34b03",
+  "_shasum": "065f4118400bd401065e5cfaf1fba693ad0c912c",
   "_from": "git+https://github.com/NativeScript/template-hello-world-ng.git",
   "_resolved": "git+https://github.com/NativeScript/template-hello-world-ng.git#20161b82d4bc4d20f86038b47a71ed93828cdc8f"
 }

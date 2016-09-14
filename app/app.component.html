@@ -1,7 +1,6 @@
 <GridLayout rows="*,auto,auto">
     <GridLayout>
-        <StackLayout #subscriber id="subscriber" width="100%" height="100%"></StackLayout>
-        <TNSOTPublisher #publisher id="publisher" [sessionId]="sessionId" [api]="api" [token]="token" verticalAlignment="top"
-            horizontalAlignment="right" margin="10" width="100" height="100"></TNSOTPublisher>
+        <TNSOTSubscriber #subscriber id="subscriber" width="100%" height="100%"></TNSOTSubscriber>
+        <TNSOTPublisher #publisher id="publisher" verticalAlignment="top" horizontalAlignment="right" margin="10" width="100" height="100"></TNSOTPublisher>
     </GridLayout>
 </GridLayout>
