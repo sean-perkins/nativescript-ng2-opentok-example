@@ -9,15 +9,15 @@ element_registry_1.registerElement("TNSOTSubscriber", function () { return requi
 var AppComponentModule = (function () {
     function AppComponentModule() {
     }
-    AppComponentModule = __decorate([
-        core_1.NgModule({
-            declarations: [app_component_1.AppComponent],
-            bootstrap: [app_component_1.AppComponent],
-            imports: [platform_1.NativeScriptModule],
-        }), 
-        __metadata('design:paramtypes', [])
-    ], AppComponentModule);
     return AppComponentModule;
 }());
+AppComponentModule = __decorate([
+    core_1.NgModule({
+        declarations: [app_component_1.AppComponent],
+        bootstrap: [app_component_1.AppComponent],
+        imports: [platform_1.NativeScriptModule],
+    }),
+    __metadata("design:paramtypes", [])
+], AppComponentModule);
 platform_1.platformNativeScriptDynamic().bootstrapModule(AppComponentModule);
 //# sourceMappingURL=main.js.map
