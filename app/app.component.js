@@ -26,10 +26,9 @@ __decorate([
 ], AppComponent.prototype, "subscriber", void 0);
 AppComponent = __decorate([
     core_1.Component({
-        selector: "my-app",
-        templateUrl: "app.component.html",
+        selector: "sd-main",
+        template: "\n  <GridLayout rows=\"*,auto,auto\">\n    <GridLayout>\n        <TNSOTSubscriber #subscriber id=\"subscriber\" width=\"100%\" height=\"100%\"></TNSOTSubscriber>\n        <TNSOTPublisher #publisher id=\"publisher\" verticalAlignment=\"top\" horizontalAlignment=\"right\" margin=\"10\" width=\"100\" height=\"100\"></TNSOTPublisher>\n    </GridLayout>\n  </GridLayout>"
     }),
     __metadata("design:paramtypes", [])
 ], AppComponent);
 exports.AppComponent = AppComponent;
-//# sourceMappingURL=app.component.js.map
