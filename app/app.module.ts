@@ -6,6 +6,11 @@ import { NativeScriptRouterModule } from "nativescript-angular/router";
 import { appRoutes } from "./app.routing";
 import { AppComponent } from "./app.component";
 
+import { registerElement } from 'nativescript-angular/element-registry';
+
+registerElement('TNSOTPublisher', () => require('nativescript-opentok').TNSOTPublisher);
+registerElement("TNSOTSubscriber", () => require("nativescript-opentok").TNSOTSubscriber);
+
 @NgModule({
   providers: [],
   imports: [
